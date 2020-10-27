@@ -1,0 +1,130 @@
+div.text {
+    width: 900px;
+    margin: auto;
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    length: auto;
+    width: 890px;
+}
+
+img.logo {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 60px;
+    left: 755px;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+    line-height: 0px;
+}
+
+h2 {
+    font-family: 'Muli', sans-serif;
+    line-height: 0px;
+}
+
+p.text {
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+}
+
+p.description {
+    text-align: justify;
+    font-family: 'Roboto Slab', serif;
+    margin-left: 100px;
+}
+
+p.center {
+    text-align: center;
+}
+
+p.soustitre {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#navigation {
+    margin: 15px;
+    padding: 0px;
+    list-style: none;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    /*float:right;*/
+}
+
+#navigation li {
+    display: inline;
+    margin-right: 1px;
+    color: #fff;
+}
+
+#navigation li a {
+    padding: 4px 15px;
+    color: #212121;
+    /*border: 1px solid #600;*/
+    font-size: 1em;
+    line-height: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    opacity: 0.5;
+}
+
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+    opacity: 1.0;
+    transition: 0.3s;
+}
+
+input[type=submit] {
+    font-family: 'Roboto Slab', serif;
+    background-color: #555555;
+    border:none;
+    text-align: center;
+    margin: 4px 2px;
+    cursor: pointer;
+    color: white;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+/*.custom-select {
+    position: relative;
+    padding: 8px 16px;
+    text-align: center;
+    right: 60px;
+}
+
+.custom-select select {
+    padding: 8px 16px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+}*/
+
+form {
+    position: relative;
+    padding: 8px 16px;
+    text-align: center;
+    right: 60px;
+}
+
+form select {
+    padding: 8px 16px;
+    font-family: 'Roboto Slab', serif;
+    font-size: 15px;
+}
+
+footer {
+    background-color: #212121;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
